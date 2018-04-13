@@ -7,6 +7,8 @@ public class PlayerManager : MonoBehaviour {
 
 	static readonly float PLAYER_JUMP_TRUST = 10.0f,
 		PLAYER_OUT_OF_SCREEN_Y = -10f;
+	static readonly string LOAD_SCENE = "HW1";
+
 	Rigidbody rigidbodyManager;
 
 	// Use this for initialization
@@ -47,6 +49,6 @@ public class PlayerManager : MonoBehaviour {
 	}
 
 	void ResetGame() {
-		SceneManager.LoadScene ("HW1");
+		SceneManager.LoadScene (LOAD_SCENE);
 	}
 }
