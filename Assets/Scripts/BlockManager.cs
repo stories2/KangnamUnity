@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlockManager : MonoBehaviour {
 
-	static readonly float BLOCK_MOVE_SPEED = 8.0f,
+	static readonly float BLOCK_MOVE_SPEED = 2.0f,
 		OUT_OF_SCREEN_X = -10.0f;
 
 	// Use this for initialization
